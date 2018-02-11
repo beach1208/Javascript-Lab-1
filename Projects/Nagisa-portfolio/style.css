@@ -1,0 +1,212 @@
+/*======Reset ===============*/
+html, body, div, span,h1, h2, h3, h4, h5, h6, p,ol, ul, li,form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside,figcaption, figure,
+footer, header, menu, nav, section {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+/* ========= Main layout ============*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* ======= Header ======== */
+
+header {
+   position: relative;
+   height: 600px;
+   min-height: 300px;
+   width: 100%;
+   background: url(img/home.jpg) no-repeat top center;
+   background-size: cover;
+   text-align: center;
+   overflow: hidden;
+}
+
+/*=========  Nav bar ==========*/
+.nav-item {
+  font-size: 1.2em;
+  padding-right: 1.5em;
+  font-family:"Times New Roman", Georgia, Serif;
+  font-weight:400;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+
+/*====main-top style====*/
+
+.top-title {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    display: inline-block;
+    padding: 20px;
+    border: solid #c13057 2px;
+}
+
+.main-title {
+  color: #c13057;
+  font-weight: bold;
+  font-family: Serif;
+  font-size: 2em;
+  letter-spacing: 5px;
+}
+
+.subtitle{
+  position: relative;
+  top: 160px;
+  color: #c13057;
+  font-weight: bold;
+  font-family: Serif;
+}
+
+/* ===== social media buttons =====*/
+i {
+  position: relative;
+  top: 150px;
+  left: 15px;
+  font-size: 2em;
+  letter-spacing: 1em;
+  padding-top: 10px;
+  color:#c13057;
+}
+
+i:hover {
+  color: #fff;
+}
+
+
+/*==============  About =============*/
+#about {
+    /*height: 800px;
+    padding: 80px 50px;
+    width: 800px;*/
+    border-bottom: solid red 1px;
+}
+
+h2 {
+    font-family: 'Trocchi', serif;
+    font-weight: normal;
+    line-height: 48px;
+    color: #dd5d92;
+}
+
+p {
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    color: #949596;
+}
+
+.about {
+    width: 300px;
+    font-weight: 300;
+}
+
+
+/*============= Skills =======================*/
+
+
+
+
+/*=============== Beg of portfolio ========== */
+
+#portfolio{
+  border-top: solid red 1px;
+    /*background-color: #f2f2f2;*/
+    text-align: center
+    /*padding: 30px 50px 30px 50px ;*/
+  }
+
+.coming-soon {
+  border: solid 1px #d0cfd1;
+  padding: 1em;
+  margin: 3em;
+}
+
+
+
+
+/*================ Contact =======================*/
+#contact h1,p {
+  text-align: center;
+}
+
+#contact {
+  padding-bottom: 30px;
+  border-top: solid red 1px;
+  background: #DAE2F8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contactsocial {
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+}
+
+form {
+   max-width: 600px;
+   margin: 0 auto;
+ }
+
+ input,textarea {
+     padding: 1em;
+     border-radius: 8px;
+     border: 1px solid #cfcfd1;
+     /*display: block;*/
+     width: 100%;
+     margin-top: 1em;
+ }
+
+textarea {
+  height: 100px;
+}
+
+.button_wrapper {
+  text-align: center;
+}
+
+#contact button {
+  width: 100%;
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #c13057;;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 4px;
+  border-bottom: 4px solid #7f3f57;
+  margin: 10px 0;
+}
+
+
+/*====Footer====*/
+
+.main-footer {
+  background: #DAE2F8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #c13057;
+  padding: 2em 0;
+  text-align: center;
+}
